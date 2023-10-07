@@ -16,6 +16,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public ResponseEntity<String> getAllBookingSources() {
-        return ResponseEntity.ok().body("Welcome to Transport and Freight Cost");
+        return ResponseEntity.ok().body("Welcome to Transport and Freight Cost.");
     }
 }
